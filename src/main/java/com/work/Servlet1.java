@@ -13,9 +13,12 @@ import javax.servlet.http.HttpServlet;
 public class Servlet1 {
 
 
+
 @RequestMapping("/abc")
 public String index(){
     System.out.println("ing....");
+
+    System.out.println("add");
     return "test2";
 }
 
